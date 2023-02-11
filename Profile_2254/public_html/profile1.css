@@ -1,0 +1,288 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 09-Feb-2023, 9:50:48 am
+    Author     : GAUTAMI
+*/
+
+
+body{
+    background-image:url("background1.jpg");
+    background-size: cover;
+}
+
+
+#cname{
+    position: relative;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    padding-left: 40px;
+    padding-top: 25px;
+    
+}
+
+#child:hover{
+    background-color: bisque;
+}
+#parent {
+    white-space: nowrap;
+    overflow-x: auto;
+    display: flex;
+    float: right;
+    padding-top: 30px;
+    padding-right: 60px;
+}
+.child {
+    display: inline-block;
+    font-family: cursive;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#footerimg1,#footerimg2,#footerimg3{
+    width: 20px;
+    height: 20px;
+}
+
+footer{
+    padding-top: 250px;
+}
+#footparent{
+    width: 100%;
+    background-color: gainsboro;
+}
+
+#profilepic{
+    padding: 30px;
+}
+
+#content{
+    padding-top: 150px;
+    padding-left: 70px;
+}
+
+#text1{
+    font-size: 25px;
+    font-family: cursive;
+}
+
+#text2{
+    font-size: 50px;
+    font-family: arial black;
+    font-weight: bold;
+}
+
+#text3{
+    font-size: 30px;
+    font-family: cursive;
+}
+#content{
+
+    float: left;
+}
+#profilepic{
+    padding-left: 200px;
+    padding-top: 50px;
+    border-radius: 100px;
+    height: 500px;
+}
+#content,#profilepic{
+    display: inline-block;
+}
+
+#containercontent{
+    width: 100%;
+}
+#aboutp{
+    
+    font-size: 17px;
+    font-family: Lucida Sans Unicode;
+    border: 2px solid #FD8A8A;
+    box-shadow: 4px 4px 5px #EB455F;
+    background-color: white;
+    padding: 60px;
+    margin: 30px;
+    width: 800px;
+    border-radius: 20px;
+    text-align: center;
+    height: 150px;
+    position: absolute;
+    right: 285px;
+}
+
+#aboutpic{
+    padding-left: 500px;
+    height: 300px;
+    
+}
+#about{
+    padding-top: 30px;
+    height: 100vh;
+    width: 100%;
+}
+
+#skills{
+    padding-top: 30px;
+    height: 100vh;
+    width: 100%;
+}
+
+#contact{
+    padding-top: 30px;
+    height: 100vh;
+    width: 100%;
+}
+.childd{
+    text-decoration: none;
+    color: black;
+}
+.childd:hover {
+    background-color: bisque;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px
+}
+
+.childd:active{
+    border-bottom-color: black;
+}
+
+
+.row {
+  display: flex;
+  padding-left: 500px;
+  padding-right: 50px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  text-align: center;
+}
+
+
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+}
+
+.hero img {
+  height: 37.5rem;
+  width: 37.5rem;
+  border-radius: 5%;
+}
+
+.bio {
+  background-color: white;
+  width: 25rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px black;
+}
+
+.bio h1 {
+  margin-bottom: var(--bottom-margin);
+}
+
+.bio p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+}
+
+.skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.skill-header {
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+.icon-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 10px var(--secondary-shadow);
+  padding: 20px;
+  margin: 10px;
+}
+
+.contact {
+  margin-top: 2rem;
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.contact-form-container {
+  max-width: 40.75rem;
+  margin: 0 auto;
+  background-color: white;
+  padding: 0.938rem;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px black;
+}
+
+.contact-form-container label {
+  line-height: 2.7em;
+  font-weight: bold;
+  color: black;
+}
+
+.contact-form-container textarea {
+  min-height: 6.25rem;
+  font-size: 14px;
+  background-color: antiquewhite;
+}
+
+.contact-form-container .input-field {
+  width: 100%;
+   background-color: antiquewhite;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 2px outset black;
+  font-size: 0.875rem;
+  outline: none;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: buttonface;
+  border: 2px solid #1C315E;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: var(--bold-font);
+  transition: var(--transition);
+}
+
+.submit-btn:hover {
+  background-color: highlight;
+  border: 2px solid ;
+  cursor: pointer;
+}
